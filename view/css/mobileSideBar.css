@@ -1,0 +1,184 @@
+@import "./global.css";
+.mobile-sidebar {
+    height: 98%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    height: 100%;
+}
+
+.mobile-sidebar a {
+    font-size: 13px;
+    align-items: center;
+    padding-top: 14px;
+    padding-bottom: 18px;
+    padding-left: 10px;
+    padding-left: 21px;
+    text-decoration: none;
+    color: var(--login-form-black);
+    display: block;
+    transition: 0.3s;
+    font-family: latoBold;
+    text-transform: uppercase;
+}
+
+.hamburger-sign:hover {
+    color: var(--login-hover-color);
+}
+
+.mobile-textbox {
+    width: 90%;
+    height: 40px;
+    font-family: lato;
+    float: left;
+    margin-right: 20px;
+}
+
+.mob-search {
+    padding: 15px;
+    color: rgb(49, 0, 128);
+    width: 70px;
+    text-align: left;
+}
+
+.mob-btn {
+    margin-right: -5px;
+    width: 50%;
+    height: 50px;
+    font-family: latoBold;
+    border-top: none;
+    border-right: none;
+    text-transform: uppercase;
+}
+
+.nav-list {
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+.nav-list>a {
+    border-bottom: 1px solid rgb(110, 110, 110, 0.2);
+}
+
+.mobile-sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    padding: 10px 15px;
+    border: none;
+}
+
+@media screen and (max-height: 450px) {
+    .mobile-sidebar {
+        padding-top: 15px;
+    }
+    .mobile-sidebar a {
+        font-size: 18px;
+    }
+}
+
+.has-search .form-control {
+    padding-left: 1.375rem;
+    width: 100%;
+    height: 70px;
+    font-family: latoBold;
+    font-size: 16px;
+    border: none;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.input-search {
+    padding-left: 2px;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    right: 12px;
+    top: 14px;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.btn-group {
+    position: relative;
+    vertical-align: middle;
+    width: 104%;
+}
+
+.menu-btn {
+    border-bottom: 2px solid var(--light-green);
+    border-left: gainsboro;
+    background-color: gainsboro;
+}
+
+.category-btn {
+    border: none;
+    border-bottom: 2px solid white;
+    color: grey;
+}
+
+.category-btn:hover {
+    border-bottom: 2px solid var(--light-green);
+    transition-timing-function: border-bottom ease-out;
+}
+
+@media (max-width:767px) {
+    #mySidebar {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        z-index: 99999;
+        top: 0;
+        right: 0;
+        background-color: var(--white);
+        overflow-x: hidden;
+        padding-top: 60px;
+        transition: 0.2s;
+    }
+    .psw,
+    .login-button,
+    .fb,
+    .google-button,
+    .user {
+        width: 100%
+    }
+    .login-form {
+        top: 0;
+        position: absolute;
+        right: auto;
+        width: 100%;
+        height: 750px;
+        font-family: "Signika", Arial, Helvetica, sans-serif;
+        z-index: 500;
+    }
+    .forgot-password {
+        margin-left: 20px;
+    }
+}
+
+.mob-log-menu {
+    width: 300px;
+}
