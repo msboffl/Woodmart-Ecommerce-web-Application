@@ -1,0 +1,84 @@
+:root {
+    --white: white;
+    --dark-green: #6ca300;
+    --light-green: #83b735;
+    --slide-green: #98BC79;
+    --slide-orange: #fbbc34;
+    --slide-pink: rgb(228, 130, 147);
+    --black: black;
+    --login-form-black: #333;
+    --header-black: rgb(24, 22, 22);
+    --fb-icon-color: #3B5998;
+    --twitter-icon-color: #55ACEE;
+    --intsa-icon-color: #673d38;
+    --linkedin-icon-color: #007bb5;
+    --youtube-icon-color: #bb0000;
+    --required-field: #E01020;
+    --label-text-color: #242424;
+    --login-hover-color: rgb(143, 136, 136);
+    --forgot-password-color: #aadf2f;
+    --account-hover-color: rgb(143, 136, 136);
+    --fb-btn-color: #314a7e;
+    --fb-btn-hover: #2c3e66;
+    --google-btn-color: #2772eb;
+    --google-btn-hover: #205fc5;
+    --faded-black: rgba(219, 219, 219, 0);
+    --whitesmoke: whitesmoke;
+    --gray: gray;
+    --recent-posts: #bbb;
+    --nav-elements-text: #848484;
+    --primary-btn-color: #83AC2B;
+    --secondary-btn-color: #7aa93c;
+    --view-more-btn: rgb(131, 172, 43);
+    --content-color: rgb(143, 122, 122);
+    --header-font: Helvetica, sans-serif;
+    --login-font: "Signika", Arial, Helvetica, sans-serif;
+    --slides-font-size: 70px;
+    --slides-font-weight: 700;
+}
+
+@font-face {
+    font-family: customFont;
+    src: url("../fonts/Signika/Signika-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: latoFont;
+    src: url("../fonts/Lato/Lato-Light.ttf");
+}
+
+@font-face {
+    font-family: latoBold;
+    src: url("../fonts/Lato/Lato-Bold.ttf");
+}
+
+@font-face {
+    font-family: latoRegular;
+    src: url("../fonts/Lato/Lato-Regular.ttf");
+}
+
+@font-face {
+    font-family: signika-regular;
+    src: url("../fonts/Signika/static/Signika-Regular.ttf");
+}
+
+@font-face {
+    font-family: signika-light;
+    src: url("../fonts/Signika-Light.ttf");
+}
+
+html {
+    font-family: latoBold;
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+h1 {
+    margin: 0;
+    font-size: 70px;
+}

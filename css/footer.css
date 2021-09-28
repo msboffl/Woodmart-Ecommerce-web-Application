@@ -1,0 +1,378 @@
+#flag-cards-section {
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 50px;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+.flag__card1{
+ 
+  padding: 35px;
+  color: #ffffff;
+}
+
+.flag__card1 p:nth-child(1){
+  font-size: 60px;
+  font-weight: bold;
+  font-family: 'signika';
+  margin: 0px;
+}
+.flag__card1 p:nth-child(2){
+  font-family: 'signika';
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 15px; 
+}
+.flag__card1 p:nth-child(3){
+   margin-bottom: 25px;
+   font-family: 'lato';
+   color: whitesmoke;
+}
+.flag__card1 a{
+  margin-top: 65px;
+  font-family: 'signika';
+  color: #ffffff;
+  border-bottom: solid whitesmoke;  
+  text-decoration: none;
+}
+.flag__card2{
+  padding: 35px;
+  color: #ffffff;
+}
+
+.flag__card2 p:nth-child(1){
+  font-size: 60px;
+  font-weight: bold;
+  font-family: 'signika';
+  margin: 0px;
+}
+.flag__card2 p:nth-child(2){
+  font-family: 'signika';
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 15px; 
+}
+.flag__card2 p:nth-child(3){
+   margin-bottom: 15px;
+   font-family: 'lato';
+   color: whitesmoke;
+}
+.flag__card2 a{
+  margin-top: 65px;
+  font-family: signika;
+  color: #ffffff;
+  border-bottom: solid whitesmoke;  
+  text-decoration: none;
+}
+.flag__card3{
+
+  padding: 35px;
+  color: #ffffff;
+}
+
+.flag__card3 p:nth-child(1){
+  font-size: 60px;
+  font-weight: bold;
+  font-family: signika;
+  margin: 0px;
+}
+.flag__card3 p:nth-child(2){
+  font-family: signika;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 15px; 
+}
+.flag__card3 p:nth-child(3){
+   margin-bottom: 15px;
+   font-family: 'lato';
+   color: whitesmoke;
+}
+.flag__card3 a{
+  margin-top: 65px;
+  font-family: 'signika';
+  color: #ffffff;
+  border-bottom: solid whitesmoke;  
+  text-decoration: none;
+}
+.flag__card4{
+  padding: 35px;
+  color: #ffffff;
+}
+
+.flag__card4 p:nth-child(1){
+  font-size: 60px;
+  font-weight: bold;
+  font-family: 'signika';
+  margin: 0px;
+}
+.flag__card4 p:nth-child(2){
+  font-family: signika;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 15px; 
+}
+.flag__card4 p:nth-child(3){
+   margin-bottom: 15px;
+   font-family: 'lato';
+   color: whitesmoke;
+}
+.flag__card4 a{
+  margin-top: 65px;
+  font-family: signika;
+  color: #ffffff;
+  border-bottom: solid whitesmoke;  
+  text-decoration: none;
+}
+
+
+/* ======  footer =========== */ 
+#footer-container{
+margin-top: 20px;
+margin-left: 0px;
+margin-right: 0px;
+}
+.main-footer{
+display: grid;
+grid-template-columns: 2fr 2fr;
+margin-left: 20px;
+margin-right: 20px;
+}
+li a{
+text-decoration: none;
+color: #727272;
+font-family: 'lato';
+font-size: 14px;
+}
+
+/* ========  Woodmart Logo =======  */
+.left__grid{
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+.right__grid{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.footer__logo{
+font-size: 14px;
+padding: 22px;
+}
+.woodmart__logo img{
+width: 220px;
+height: 35px;
+margin-bottom: 15px;
+}
+.footer__description{
+margin-right: 16px;
+margin-bottom: 25px;
+font-family: 'lato',Arial, Helvetica, sans-serif;
+color: #727272;
+}
+.woodmart__location, .woodmart__phone, .woodmart__fax{
+margin-bottom: 10px;
+font-family: 'lato';
+color: #727272;
+}
+.woodmart__location i{
+font-size: 17px;
+margin-right: 8px;
+}
+.woodmart__phone i{
+ margin-right: 13px;
+}
+.woodmart__fax i{
+ margin-right: 10px;
+
+}
+
+
+/* ======= Recent Posts  ======== */
+
+.recent__posts{
+padding: 22px;
+}
+.recent__posts__header{
+font-family: 'Signika',Arial, Helvetica, sans-serif;
+text-transform: uppercase;
+font-weight: 600;
+margin-bottom: 20px;
+}
+.recent__post1,.recent__post2{
+display: flex;
+}
+.recent__post1 img{
+margin-right: 14px;
+}
+.recent__post2 img{
+margin-right: 14px;
+}
+
+
+.recent__post__time{
+color: #727272;
+font-family: 'lato', Arial, Helvetica, sans-serif;
+font-size: 12px;
+margin-top: 10px;
+
+}
+.horizontal__line{
+border-bottom:solid 1px rgba(119, 119, 119, 0.3);
+margin-top: 20px;
+width: 270px;
+margin-bottom: 20px;
+}
+.recent__post__title a{
+text-decoration: none;
+font-family: 'signika';
+color: #333;
+font-size: 14px;
+}
+/* =======  Our Stores =========*/
+.our__stores{
+padding: 22px;
+
+}
+.our__stores__header{
+font-family: 'Signika',Arial, Helvetica, sans-serif;
+text-transform: uppercase;
+font-weight: 600;
+margin-bottom: 10px;
+}
+.our__stores__menu{
+list-style-type: none;
+padding: 0; 
+margin-left: 0; 
+}
+.our__stores__menu li{
+margin-bottom: 15px;
+}
+
+/* ======== Useful Links =======*/
+.useful__links{
+padding: 22px;
+}
+
+.useful__links__header{
+font-family: 'Signika',Arial, Helvetica, sans-serif;
+text-transform: uppercase;
+font-weight: 600;
+margin-bottom: 10px;
+}
+.useful__links__menu{
+list-style-type: none;
+padding: 0;  
+margin-left: 0;
+}
+.useful__links__menu li{
+margin-bottom: 15px;
+}
+
+/* =======  Footer Menu =========*/
+.footer__menu{
+padding: 22px;
+}
+.footer__menu__header{
+font-family: 'Signika',Arial, Helvetica, sans-serif;
+text-transform: uppercase;
+font-weight: 600;
+margin-bottom: 10px;
+}
+.footer__menu__links{
+list-style-type: none;
+padding: 0;  
+margin-left: 0;
+}
+.footer__menu__links li{
+margin-bottom: 15px;
+}
+
+/* ===== Copy-right Footer ======  */
+
+#copyright__footer{
+display: grid;
+grid-template-columns: 75% 25%;
+font-family: 'lato', Arial, Helvetica, sans-serif;
+font-size: 12px;
+padding-top: 10px;
+padding-bottom: 10px;
+color: #727272;
+border-top: solid 1px rgba(119, 119, 119, 0.3);
+border-bottom: solid 1px rgba(119, 119, 119, 0.3);
+}
+#copyright__footer strong{
+color: black;
+}
+.copyright{
+padding-top: 6px;
+margin-left: 40px;
+}
+
+
+
+
+
+/* ======   Responsive Design   ======= */
+
+/* Responsive for Mobile */
+@media only screen and (max-width:426px){
+#flag-cards-section {
+  width: -30px;
+  grid-template-columns: 1fr;
+  font-size: 20px;
+}
+.main-footer{
+  width: 100%;
+  grid-template-columns: 1fr;
+}
+.left__grid{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.right__grid{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+#copyright__footer{
+  grid-template-columns: 100%;
+}
+.payments{
+  margin-left: 40px;
+}
+}
+
+/*Responsive for  Tablet */
+@media only screen and (max-width:1025px) and (min-width:427px){
+#flag-cards-section {
+  margin-right: -20px;
+  grid-template-columns: 50% 50%;
+  font-size: 20px;
+}
+.main-footer{
+  grid-template-columns: 1fr;
+}
+#copyright__footer{
+  grid-template-columns: 50% 50%;
+} 
+.payments{
+  margin-left: 40px;
+}
+}
+
+/*Responsive for  Laptop */
+@media screen and (max-width: 1440px) and (min-width: 770px){
+
+
+}
