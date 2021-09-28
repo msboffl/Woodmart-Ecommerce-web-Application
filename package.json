@@ -1,0 +1,26 @@
+{
+  "name": "woodmart",
+  "version": "1.0.0",
+  "description": "Woodmart Ecommerce Web Application Using HTML, CSS, JavaScript and Fully Responsive",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "deploy": "gh-pages -d view"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msboffl/Woodmart-Ecommerce-web-Application.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/msboffl/Woodmart-Ecommerce-web-Application/issues"
+  },
+  "homepage": "https://msbofflgithub.io/Woodmart-Ecommerce-web-Application",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
