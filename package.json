@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/msboffl/Woodmart-Ecommerce-web-Application/issues"
   },
-  "homepage": "https://msboffl.github.io/Woodmart-Ecommerce-web-Application",
+  "homepage": "https://msboffl.github.io/Woodmart-Ecommerce-web-Application/",
   "dependencies": {
     "gh-pages": "^3.2.3"
   }
